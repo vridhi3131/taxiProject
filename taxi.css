@@ -1,0 +1,901 @@
+body{
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+}
+.logo{
+    text-align: center;
+    padding-top: 3%;
+}
+.nav, .car_type{
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 3%;
+    font-size: 1.3em;
+    text-align: center;
+}
+.nav ul, .car_type ul{
+    list-style-type: none;
+}
+.nav li, .car_type li{
+    display: inline-block;
+    padding-left: 3%;
+}
+.nav sup{
+    background-color: red;
+    border-radius: 30%;
+}
+.nav a, .car_type a{
+    text-decoration: none;
+    color: white;
+}
+.nav .home{
+    color: yellow;
+}
+.call_taxi{
+    font-size: 1.2em;
+    text-align: center;
+} 
+.number{
+    font-size: 84px;
+    color: yellow;
+}
+.dropdown_content li{
+    font-size: 20px;
+}
+.dropdown{
+     position: relative;
+  display: block;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+.dropdown_content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdown_content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+.dropdown:hover{
+  background-color: orange;
+}
+.main{
+    width: 100%;
+    background-color: yellow;
+    float: left
+}
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+}
+
+.car_type a{
+    color: black;  
+}
+.inputs{
+    position: relative;
+    width: 100%;
+    padding-left: 12%;
+}
+.inputs input{
+    height: 34px;
+    width: 200px;
+    border-radius: 5px;
+}
+.inputs ul{
+    list-style-type: none;
+}
+.inputs li{
+    display: inline-block;
+    padding-left: 1%;
+}
+
+.mymarker, .phonemy, .mycar{
+    position: absolute;
+    top: 131px;
+    left: 392px;
+    color: grey;
+}
+#fa_icon{
+    left: 610px;
+    position: absolute;
+    top: 131px;
+    color: grey;
+}
+.phonemy{
+    left: 822px;
+    top: 133px;
+} 
+.mycar{
+    left: 1037px;
+}
+.button{
+    float: left;
+    padding-left: 40%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    width: 60%;     
+}
+.button button{
+    background-color: maroon;
+    color: white;
+    padding: 2% 5%;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.services{
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+.wel_ser h2{
+    text-align: center;
+    color: darkorange;
+    padding-top: 3%;
+}
+.wel_ser h1{
+    font-size: 2.7em;
+    text-align: center;
+    margin-top: -2%;
+}
+.vr_ser{
+    float: left;
+    width: 100%; 
+    padding-bottom: 5%;
+}
+.vr_ser i{
+    color: orange;
+}
+.vr_ser h3{
+    font-weight: 700;
+}
+.vr_ser ul{
+    list-style-type: none;
+    padding-left: 10%;
+}
+.vr_ser li{
+    display: inline-block;
+    text-align: center;
+}
+.fa_icon{
+    width: 18%;  
+}
+.vr{
+    width: 2%;
+    padding: 0 2%;
+}
+.vr_ser i{
+    padding-left: 15%;
+}
+.v1 {
+  border-left: 2px dotted grey;
+  height: 223px;
+}
+.tariffs{
+    float: left;
+    width: 100%;
+    padding-top: 2%;
+    background-color: gainsboro;
+    text-align: center;
+}
+.tariffs_heading h3{
+    color: orange;
+    font-size: 40px;
+}
+.tariffs_heading h2{
+    font-size: 55px;
+    margin-top: -2%;
+}
+.classification{
+    margin: 0 auto;
+    width: 84%;
+}
+.standart{
+    margin-bottom: 5%;
+    float: left;
+    background-color: white;
+    width: 24%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1%;
+    height: 30%;
+    margin-left: 1%;
+    
+}
+.standart h1{
+    text-align: center;
+    font-size: 22px;
+}
+.standart p{
+    font-size: 30px;
+}
+.standart img{
+    height: 94px;
+    width: 153px; 
+}
+.vip{
+    border: 4px solid yellow;
+}
+.download{
+    float: left;
+    width: 100%;
+    background-color: black;
+    padding-top: 5%;
+}
+.download_heading h2{
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+}
+.download_heading h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: -1%;
+}
+.benefits{
+    float: left;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.bene_1, .bene_2, .bene_3, .bene_4{
+    float: left;
+    width: 32%;
+}
+.bene_1 ul{
+    list-style-type: none;
+    padding: 0;
+}
+.benefits li{
+    padding-bottom: 35%;
+    padding-top: 2%;
+} 
+.benefits h2{
+    color: yellow;
+    font-size: 20px;
+}
+.benefits p{
+    color: white;
+    text-align: left;
+}
+.bene_3 img{
+   width: 100%;
+    
+}
+.bene_4{ 
+    text-align: right;
+}
+.bene_4 h2{
+    color: yellow;
+    font-size: 20px;
+}
+.bene_4 p{
+    color: white;
+}
+.earn{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 5%;
+}
+.earn_left{
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+}
+.earn_left h3{
+    color: orange;
+    font-weight: bolder;
+}
+.earn_left h1{
+    font-size: 38px;
+    font-weight: bolder;
+    margin-top: -2%;
+}
+.ul{
+    float: left;
+    width: 100%;
+}
+.ul_left{
+    float: left;
+    width: 47%;
+}
+.ul_left li{
+    list-style-type: none;
+    font-weight: 700;
+    line-height: 40px;
+}
+.ul ul li::before {
+  content: "✓";
+  color: orange;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.btn{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.btn button{
+    background-color: orange;
+    color: white;
+    margin-left: -25%;
+    padding: 1% 6%;
+    border: 3% solid orange;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.earn_right{
+    float: right;
+    width: 45%;
+    margin-left: -5%;
+    padding-bottom: 5%;
+}
+.hr{
+    float: left;
+    width: 100%;
+}
+.hr1{
+    border: 3px dashed;
+}
+.hr2{
+    border: 3px dotted;
+    margin-top: -1.5%;
+}
+.testemonials{
+    float: left;
+    width: 100%;
+    background-color: ghostwhite;
+    margin-top: -1.3%;
+}
+.testemonials_heading{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.testemonials_heading h2{
+    color: orange;
+    font-weight: bolder;
+}
+.testemonials_heading h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: -2%;
+}
+.testi{
+    float: left;
+    width: 100%;
+    height: 10%;
+    padding-bottom: 5%;
+    padding-left: 11%;
+}
+.testi_1{
+    float: left;
+    width: 28%;
+    border-radius: 7px;
+    background-color: white;
+    padding: 3% 2%;
+    margin-left: 1%;
+}
+.testi_1 p{
+    text-align: center;
+}
+.quote{
+    width: 30%;
+    height: 10%;
+    padding-top: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+.girl{
+    border-radius: 40%;
+    margin-bottom: -25%;
+    text-align: center;
+    width: 30%;
+    margin-left: 25%;
+    padding-left: 5%;
+}
+.arrow{
+    float: left;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.arrow_left{
+    float: left;
+    width: 47%;
+}
+.left_a{
+   float: right;
+    width: 95%;
+    
+}
+.arrow_left p, .arrow_right p{
+    background-color: orange;
+    width: 5%;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    float: right; 
+    width: 4%;
+    font-weight: bolder;
+    padding-left: 2%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.arrow_right{
+    float: left;
+    width: 47%;
+    padding-left: 1%;
+}
+.arrow_right p{
+    float: left;
+}
+.banner{
+    float: left;
+    width: 98%;
+    margin-left: 1%;
+}
+.banner_left{
+    float: left;
+    width: 48%;
+}
+.banner_img{
+    float: right;
+    width: 92%;
+}
+.banner_right{
+    float: left;
+    width: 48%;
+}
+.partners{
+    float: left;
+    width: 100%;
+    background-color: orange;
+}
+.partners_left{
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding-top: 3%;
+}
+.partners_left h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.partners_left h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-top: -3%;
+}
+.partners_right{
+    float: left;
+    width: 60%;
+}
+.partners_right ul{
+    list-style-type: none;
+}
+.partners_right li{
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 2%;
+    padding-top: 6%;
+}
+.footer{
+    background-color: black;
+    float: left;
+    width: 100%;
+}
+.foot1{
+    float: left;
+    width: 27%;
+    padding-left: 5%;
+    padding-top: 7%;
+}
+.foot1 h1{
+    text-align: left;
+    color: orange;
+    font-size: 1.8em;
+    font-weight: bolder;  
+}
+.foot1 p{
+    color: white;
+}
+.foot2 li{
+    color: white;
+}
+.foot2 ul{
+  column-count: 2;  
+    column-gap: 13%;
+}
+.foot2 hr{
+    border: 1px dotted grey;
+    width: 50%;
+}
+.foot3 span{
+    color: white;
+}
+.foot3 li{
+    color: white;
+    line-height: 250%;
+    list-style-type: none;
+}
+.foot3 i{
+    color: white;
+}
+.ser_header{
+    float: left;
+    width: 100%;
+    background: black;
+    color: white;
+    height: 110px;
+}
+.ser_header_left{
+    float: left;
+    width: 24%;
+}
+.ser_header_left img{
+    padding: 9% 0 0 25%;
+}
+.ser_header_right{
+    float: left;
+    width: 70%;
+}
+.ser_header_right ul{
+    list-style-type: none;
+}
+.ser_header_right li{
+    display: inline-block;
+    padding-left: 2%;
+    padding-top: 3%;
+}
+.ser_header_right a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.ser_header_right sup{
+    background-color: red;
+    border-radius: 30%;
+}
+.ser_header_right .home{
+    color: yellow;
+}
+.ser_main{
+    margin: 0 auto;
+    width: 100%;
+}
+.ser_main_services{
+    text-align: center;
+    padding-top: 10%;
+}
+.ser_main_services h3{
+    color: orange;
+    font-size: 26px;
+}
+.ser_main_services h1{
+    margin-top: -2%;
+    font-size: 42px;
+}
+.ser_main_p{
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.ser_tariffs{
+    float: left;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.ser_tariffs_h2{
+    color: white;
+}
+.ser_tariffs_heading{
+    padding-top: 5%;
+    font-size: 18px;
+}
+.ser_hr{
+    margin-top: -1.4%;
+    color: gray;
+    padding-bottom: 5%;
+}
+.contact_us{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.taxi_park{
+    color: grey;
+    display: inline;
+    width: 50%;
+}
+.contact_us2{
+    color: orange;
+    display: inline;   
+    width: 50%;
+}
+.contact_us h1{
+    color: white;
+    font-weight: 700;
+    font-size: 2.9em;
+    margin-top: -1%;
+}
+.contact_us_main{
+    float: left;
+    width: 100%;
+    padding: 5% 0 ;
+}
+.contact_us_main p{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.contact_us_contacts{
+    width: 100%;
+    margin-left: 1%;
+    text-align: center;
+}
+.contact_us_address{
+    background-color: gainsboro;
+    float: left;
+    width: 30%;
+    padding-top: 3%;
+    height: 200px;
+    margin-left: 2%;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+.contact_us_address i{
+    font-size: 2.4em;
+    color: orange;
+    padding-bottom: 4%;
+}
+.contact_us_address h1{
+    font-size: 1.4em;
+}
+.contact_us_social{
+    margin: 0 auto;
+    width: 100%;
+}
+.contact_us_social h3{
+    font-weight: 700;
+    text-align: center;
+}
+.contact_us_media_icons{
+    text-align: center;
+}
+.contact_us_media_icons li{
+    display: inline;
+    list-style-type: none;
+}
+.contact_us_media_icons li img{
+    width: 50px;
+}
+.contact_us_form{
+    margin: 0 auto;
+    width: 60%;
+    background-color: gainsboro;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.contact_us_formcontent{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+    line-height: 2;
+}
+
+.contact_us_form form{
+    text-align: center;
+}
+.contact_us_message{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+#message{
+    height: 100px;
+}
+.contact_us_nm{
+    float: left;
+    width: 100%;
+}
+.contact_us_name{
+    float: left;
+    width: 48%;
+}
+.contact_us_name input{
+    width: 100%;
+}
+.contact_us_email input{
+    width: 100%;
+}
+.contact_us_email{
+    float: right;
+    width: 50%;
+}
+.contact_us_btn{
+    background-color: orange;
+    padding: 1% 2%;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.contact_us_map{
+    margin: 0 auto;
+    width: 90%;
+}
+.gallery2{
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.gallery2_parent {
+    float: left;
+    width: 100%;
+}
+.gallery2_div1{
+    margin: 0 auto;
+    width: 100%;
+}
+.gallery2_div1_left{
+    float: left;
+    width: 48%;
+padding-left: 4%;
+    padding-top: 5%;
+}
+.my_clock{
+    color: orange;
+}
+.gallery2 img{
+    border-radius: 10px;
+    width: 96%;
+}
+.gallery2 span{
+    color: grey;
+}
+
+@media only screen and (max-width: 860px) { 
+
+    .number {
+    font-size: 54px;
+    color: yellow;
+}
+    
+    .nav li, .car_type li {
+    display: inline-block;
+    padding-left: 1%;
+    font-size: 14px;
+        text-align: center;
+}
+    .standart {
+        width: 48%;
+    }
+    
+    .main img{
+        width: 67%;    
+    }
+    
+    .inputs {
+        float: none;
+    position: relative;
+    width: 99%;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+    .inputs li {
+        line-height: 2.5;
+    }
+    
+    .inputs input{
+        width: 145px;
+    }
+    .mymarker{
+    top: 9px;
+    left: 274px;
+    }
+    .phonemy{
+        top: 9px;
+        left: 583px;
+    }
+    .mycar{
+        top: 9px;
+        left: 737px;
+    }
+    #fa_icon{
+        top: 9px;
+        left: 430px;
+    }
+    .button{
+        margin: 0 auto;
+    }
+    .fa_icon {
+    width: 15%;
+}
+    .vr_ser{
+        padding-left: 6%;
+    }
+    .bene_3 img{
+        min-height: 445px;
+    }
+    .download_heading h1{
+        font-size: 42px;
+    }
+    .download_heading h2 {
+    font-size: 26px;
+}
+    .earn_right img{
+        width: 100%;
+        height: 239px;
+    }
+    .testemonials_heading h2{
+    font-size: 26px;
+    }
+    .testemonials_heading h1{
+    font-size: 45px;
+    }
+    .banner_img img, .banner_right img{
+        width: 100%;
+        height: 238px;
+    }
+    .partners_left h1 {
+    font-size: 30px;
+    }
+    .partners_left h2 {
+    font-size: 20px;
+    }
+    .partners_right li{
+        font-size: 14px;
+    }
+    .foot1 h1{
+        font-size: 20px;
+    }
+    .foot2 ul{
+        column-count: 1;
+        line-height: 1.8   ;
+    }
+}
+
+
+@media only screen and (max-width: 460px) { 
+    .bene_1, .bene_2, .bene_3, .bene_4{
+        width: 96%;
+        text-align: center !important;
+    } 
+    
+    .bene_3{
+        display: none;
+    } 
+    .benefits li{
+        padding-bottom: 7%;
+    }
+}
